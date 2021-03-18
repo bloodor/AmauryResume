@@ -1,4 +1,37 @@
 footer.page-footer {
     margin: 0;
-  }
+    background-color: #a1cae2;
+}
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+  
+.sticky-nav{
+  position: sticky;
+  top: 0;
+}
+
+#title {
+  font-size: 80px;
+  text-align: center;
+  color: #C0C0C0;
+  background-color: #795548;
+  padding-top: 240px;
+  padding-bottom: 270px;
+  z-index: -9999;
+}
+
+.parallax-container {
+  height: "200px";
+}
+
+.bar-color {
+  background-color: #a1cae2;
+}
